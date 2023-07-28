@@ -1,0 +1,74 @@
+body {
+  background-color: #2d3139;
+  color: #d3d5da;
+  border-radius: 10px;
+  margin: auto 0;
+  padding: 0;
+}
+
+.option {
+  display: none;
+}
+
+.option.active {
+  display: block;
+  color: #d3d5da;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.sbLinkBtn {
+  background-color: #2d3139;
+  border: solid 1px whitesmoke;
+  color: #d3d5da;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+.stack-title {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.stack-subtitle {
+  font-size: 10px;
+}
+.content-button {
+  align-items: center;
+  padding: 7px 10px;
+}
+.nav-btn {
+  border-bottom: 1px solid #33ffcc;
+}
+.nav-item {
+  font-size: small;
+  padding: 8px;
+  margin-left: 3px;
+}
+
+.nav-item:hover {
+  background-color: #333;
+  cursor: pointer;
+}
+
+.build-btn:hover {
+  background-color: #33ffcc;
+  color: #2d3139;
+}
+
+#main-options-div::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #333;
+}
+
+#main-options-div::-webkit-scrollbar {
+  width: 10px;
+  background-color: #333;
+}
+
+#main-options-div::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border: 2px solid #555555;
+}

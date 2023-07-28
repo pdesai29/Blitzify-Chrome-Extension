@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stackBlitz</title>
+
+    <script src="db.js"></script>
+    <script src="stackBlitz.js"></script>
+    <script type="module" src="popup.js"></script>
+    <script src="bootStrap.js"></script>
+    <link rel="stylesheet" href="bootStrap.css" />
+    <link href="popup.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div
+      class="container-xl text-center bg-dark p-3 justify-content-center align-items-center rounded"
+      style="width: 750px"
+    >
+      <h5 class="m-2">StackBlitz Plugin V1</h5>
+      <nav
+        style="--bs-breadcrumb-divider: ''"
+        class="align-items-center"
+        aria-label="breadcrumb"
+      >
+        <div class="container-xl">
+          <ol class="breadcrumb">
+            <li
+              class="breadcrumb-item nav-item"
+              id="custom-Builds"
+              aria-current="page"
+            >
+              Custom
+            </li>
+            <li class="breadcrumb-item nav-item" id="popular-Builds">
+              Popular
+            </li>
+            <li
+              class="breadcrumb-item nav-item"
+              id="frontEnd-Builds"
+              aria-current="page"
+            >
+              Frontend
+            </li>
+            <li
+              class="breadcrumb-item nav-item"
+              id="backEnd-Builds"
+              aria-current="page"
+            >
+              Backend
+            </li>
+            <li
+              class="breadcrumb-item nav-item"
+              id="fullStack-Builds"
+              aria-current="page"
+            >
+              Fullstack
+            </li>
+            <li
+              class="breadcrumb-item nav-item"
+              id="vite-Builds"
+              aria-current="page"
+            >
+              Vite
+            </li>
+            <li
+              class="breadcrumb-item nav-item"
+              id="docsBlogsSlides-Builds"
+              aria-current="page"
+            >
+              Slides
+            </li>
+            <li
+              class="breadcrumb-item nav-item"
+              id="creative-Builds"
+              aria-current="page"
+            >
+              Creative
+            </li>
+            <li
+              class="breadcrumb-item nav-item"
+              id="mobile-Builds"
+              aria-current="page"
+            >
+              Mobile
+            </li>
+            <li
+              class="breadcrumb-item nav-item"
+              id="vanilla-Builds"
+              aria-current="page"
+            >
+              Vanilla
+            </li>
+          </ol>
+        </div>
+      </nav>
+      <hr />
+
+      <div
+        class="container-xl text-center"
+        id="main-options-div"
+        style="width: 750px; height: 300px; overflow-y: scroll"
+      >
+        <div class="option p-4" id="custom-Builds-div">
+          <h4 class="m-2 p-2">Custom Build</h4>
+          <div class="row g-3 align-items-center">
+            <input
+              class="form-control bg-dark text-light m-4 p-2 col-sm"
+              type="text"
+              id="build-input"
+              value="-t template -ti title -des description -d dependency -f files -s define start command"
+              required
+            />
+          </div>
+          <button class="btn btn-lg btn-dark build-btn" id="build-button">
+            Build
+          </button>
+        </div>
+        <div class="option" id="popular-Builds-div"></div>
+        <div class="option" id="frontEnd-Builds-div"></div>
+        <div class="option" id="backEnd-Builds-div"></div>
+        <div class="option" id="fullStack-Builds-div"></div>
+        <div class="option" id="vite-Builds-div"></div>
+        <div class="option" id="docsBlogsSlides-Builds-div"></div>
+        <div class="option" id="creative-Builds-div"></div>
+        <div class="option" id="mobile-Builds-div"></div>
+        <div class="option" id="vanilla-Builds-div"></div>
+      </div>
+    </div>
+  </body>
+</html>
