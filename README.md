@@ -1,6 +1,11 @@
 # Blitzify-Chrome-Extension
 Blitzify is a powerful Chrome extension that simplifies the development process by providing a seamless and efficient way to create and manage development environments. Whether you're a seasoned developer or just getting started, this extension has got you covered with its user-friendly prompts and support for premade project starters.
 
+<a href="https://chrome.google.com/webstore/detail/blitzify-stackblitz-exten/hadmlbeibciinngffldeohfiebkbgbpl/related">
+  <img src="./imgs/14.png" width="200"/> 
+</a>
+
+
 ## Demo 📺
 <img src="./imgs/demo.gif">
 
